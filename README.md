@@ -5,13 +5,18 @@ Vede Jan Polišenský, CTO Lakmoos AI a lektor ICT Pro ([janpoli.com](https://ja
 
 Žádný firemní kód ani data. Všechno smíte zkopírovat a upravit pro svou firmu.
 
-## Na workshopu: oponent v telefonu
-Otevřete **[oponent.md](oponent.md)**, zkopírujte blok do AI v telefonu a porovnejte, co najde, s tím,
-co jste našli ve cvičení 1.
+## Na workshopu
+1. Otevřete **[pracovni-list.md](pracovni-list.md)** a odpovědi pište tam (nebo do vlastních poznámek).
+2. Ve cvičení 3 přijde na řadu **[oponent.md](oponent.md)**: blok vložíte do chatu s AI a porovnáte, co najde,
+   s tím, co jste našli ve cvičení 1.
+
+Prezentace, pracovní list v PDF a tahák s řešením jsou ve složce [prezentace/](prezentace/).
 
 ## Co tu je
 | Soubor | K čemu |
 |---|---|
+| [prezentace/](prezentace/) | Slidy z workshopu, pracovní list a tahák s řešením v PDF. |
+| [pracovni-list.md](pracovni-list.md) | Cvičení z workshopu, odpovědi se píšou přímo do souboru. |
 | [AGENTS.md](AGENTS.md) | Šest pravidel jako soubor, který váš agent čte před prací. Zkopírujte do kořene svého repozitáře. |
 | [CLAUDE.md](CLAUDE.md) | Odkaz na `AGENTS.md` pro Claude Code. |
 | [zadani-sablona.md](zadani-sablona.md) | Zadání pro agenta v šesti polích, šablona a vzor. |
@@ -21,7 +26,7 @@ co jste našli ve cvičení 1.
 
 ## Šest pravidel
 1. **Autor a oponent.** Jeden agent píše, druhý s vlastními instrukcemi hledá chyby. Člověk čte každou změnu, malou a s jedním účelem.
-2. **Sdílená znalostní báze.** Pravidla a poučení v jedné složce (repozitáři), kterou čte každý agent.
+2. **Sdílená znalostní báze.** Pravidla a poučení v jednom repu (AGENTS.md), které čte každý agent.
 3. **Test odděleně od produkce.** Agenti nemají produkční klíče. Nasazuje člověk připraveným skriptem.
 4. **Strop na náklady.** Klíč a strop pro každé prostředí, cena za volání v každém reportu.
 5. **Čísla se zdrojem.** Každé číslo spočítal skript, který jde spustit znovu. Co chybí, je „neznámo“, ne nula.
