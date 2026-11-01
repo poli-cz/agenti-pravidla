@@ -28,10 +28,13 @@ OPONENT:
 Původní zadání od šéfa: „Oprav ten export objednávek a nasaď to.“ V exportu chybí objednávky se slevou.
 
 ```
-CÍL:      Export za zvolený měsíc vrací všechny objednávky, i ty se slevou. Testovací objednávky v něm nejsou.
-ROZSAH:   Jen modul exportu. Formát výstupu a rozhraní funkcí beze změny.
-NESMÍ:    Sahat na produkci, spouštět nasazení, mazat data, měnit klíče a konfiguraci.
-HOTOVO:   Testy projdou a počet řádků exportu sedí s přímým počtem v datech (kontrola.py).
+CÍL:      Export za zvolený měsíc vrací všechny objednávky, i ty se slevou.
+ROZSAH:   Jen modul exportu. Schéma databáze a API beze změny.
+NESMÍ:    Sahat na produkci, spouštět nasazení, mazat data a měnit klíče.
+HOTOVO:   Test na testovacích datech projde a počet řádků sedí s dotazem do databáze.
 NASAZUJE: Člověk, připraveným skriptem, po review.
-OPONENT:  Jiný model zkontroluje změnu proti tomuto zadání a hledá, co autor vynechal.
+OPONENT:  Jiný model zkontroluje změnu proti zadání a hledá, co autor vynechal.
 ```
+
+Stejné zadání upravené pro cvičný projekt (data v CSV, místo dotazu do databáze `kontrola.py`) je
+v [zkuste-doma/ULOHA.md](zkuste-doma/ULOHA.md).

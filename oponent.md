@@ -1,7 +1,7 @@
 # Oponent v telefonu
 
 1. Zkopírujte celý blok níže (ikona kopírování vpravo nahoře u bloku).
-2. Vložte ho do AI, kterou máte v telefonu: ChatGPT, Claude, Copilot, Gemini, cokoli.
+2. Vložte ho do chatu s AI, kterou máte v telefonu: ChatGPT, Claude, Copilot, Gemini, cokoli.
 3. Porovnejte s tím, co jste našli ve cvičení 1. Co oponent našel navíc? Co přehlédl?
 
 ```
@@ -24,7 +24,7 @@ Report autora: oprava exportu objednávek
 • Úspora zhruba 120 hodin měsíčně.
 ```
 
-Máte minutu navíc? Smažte z bloku bod 3 a pošlete ho znovu v novém chatu. Najde oponent bez pravidel totéž?
+Máte minutu navíc? Smažte v bloku bod 3 (nula a OK) a pošlete ho znovu v novém chatu. Najde oponent bez pravidel totéž?
 Rozdíl mezi oběma odpověďmi je to, co do práce přinášejí vaše pravidla.
 
 ## Na vlastním projektu

@@ -7,7 +7,7 @@ která agenti napíšou do vašeho produktu. Ta běží pořád, i když už nik
 1. **Klíč pro prostředí.** Test, produkce a každý agent nebo služba mají vlastní klíč. Když klíč uteče
    nebo se zacyklí, víte který a vypnete jen jeho.
 2. **Strop na klíč.** Měsíční limit u každého klíče nebo projektu. Kde poskytovatel umí jen upozornění, ne tvrdý
-   strop (typicky cloudové rozpočty), hlídejte strop ve vlastním obalu volání, který po dosažení limitu vrátí chybu.
+   strop (typicky cloudové rozpočty), hlídejte strop ve vlastní mezivrstvě, přes kterou jdou všechna volání modelu a která po dosažení limitu vrátí chybu.
 3. **Varování předem.** Zpráva týmu při 80 % stropu, ne až po vyčerpání.
 4. **Chyba nahlas.** Po dosažení stropu systém hlásí chybu. Žádný tichý přechod na jiný, levnější nebo horší model.
    Tichý přechod vypadá jako úspora a projeví se horšími výsledky, které nikdo nehledá.

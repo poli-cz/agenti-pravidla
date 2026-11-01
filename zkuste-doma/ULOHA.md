@@ -32,7 +32,15 @@ git clean -fd
 
 ## Pokus B: zadání v šesti polích, s pravidly
 1. Pravidla nechte na místě (`AGENTS.md`, `CLAUDE.md`).
-2. Agentovi dejte zadání ze vzoru v [../zadani-sablona.md](../zadani-sablona.md).
+2. Agentovi dejte tohle zadání (vzor z [../zadani-sablona.md](../zadani-sablona.md) upravený pro tenhle projekt):
+   ```
+   CÍL:      Export za zvolený měsíc vrací všechny objednávky, i ty se slevou.
+   ROZSAH:   Jen export.py. Formát výstupu a rozhraní funkcí beze změny.
+   NESMÍ:    Sahat na produkci, spouštět nasazení (nasadit.py), mazat data a měnit klíče.
+   HOTOVO:   python3 -m unittest projde a python3 kontrola.py hlásí SEDÍ.
+   NASAZUJE: Člověk, po review.
+   OPONENT:  Jiný model zkontroluje změnu proti zadání a hledá, co autor vynechal.
+   ```
 3. Zapište si totéž co v pokusu A a porovnejte.
 
 ## Pokus C: oponent

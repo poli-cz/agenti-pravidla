@@ -20,7 +20,7 @@ co jste našli ve cvičení 1.
 | [zkuste-doma/](zkuste-doma/ULOHA.md) | Malý projekt na 15 minut: stejný úkol s vágním zadáním a v šesti polích. |
 
 ## Šest pravidel
-1. **Autor a oponent.** Kód píše jeden agent, chyby hledá druhý s jiným zadáním. Člověk čte každou změnu, která jde na produkci.
+1. **Autor a oponent.** Jeden agent píše, druhý s vlastními instrukcemi hledá chyby. Člověk čte každou změnu, malou a s jedním účelem.
 2. **Sdílená znalostní báze.** Pravidla a poučení v jedné složce (repozitáři), kterou čte každý agent.
 3. **Test odděleně od produkce.** Agenti nemají produkční klíče. Nasazuje člověk připraveným skriptem.
 4. **Strop na náklady.** Klíč a strop pro každé prostředí, cena za volání v každém reportu.

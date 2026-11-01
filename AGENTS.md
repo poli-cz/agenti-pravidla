@@ -5,7 +5,7 @@ a upravte místa označená **[upravte]**. Codex a další agenti čtou `AGENTS.
 který sem odkazuje.
 
 ## 1. Autor a oponent
-- Píšeš kód jako autor. Tvoji změnu zkontroluje druhý agent s jiným zadáním a potom člověk.
+- Píšeš kód jako autor. Tvoji změnu zkontroluje druhý agent s vlastními instrukcemi a potom člověk.
 - Dělej malé změny s jedním účelem. Co s úkolem nesouvisí, do změny nepatří.
 - Smazaný nebo přeskočený test je změna jako každá jiná: napiš ji do reportu.
 
